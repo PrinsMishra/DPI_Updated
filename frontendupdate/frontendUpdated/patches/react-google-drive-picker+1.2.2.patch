@@ -1,0 +1,30 @@
+diff --git a/node_modules/react-google-drive-picker/dist/index.js b/node_modules/react-google-drive-picker/dist/index.js
+index 4e964cb..94db25f 100644
+--- a/node_modules/react-google-drive-picker/dist/index.js
++++ b/node_modules/react-google-drive-picker/dist/index.js
+@@ -145,4 +145,3 @@ function useDrivePicker() {
+     return [openPicker, authRes];
+ }
+ exports.default = useDrivePicker;
+-//# sourceMappingURL=index.js.map
+\ No newline at end of file
+diff --git a/node_modules/react-google-drive-picker/dist/typeDefs.js b/node_modules/react-google-drive-picker/dist/typeDefs.js
+index 600d75b..b42de13 100644
+--- a/node_modules/react-google-drive-picker/dist/typeDefs.js
++++ b/node_modules/react-google-drive-picker/dist/typeDefs.js
+@@ -7,4 +7,3 @@ exports.defaultConfiguration = {
+     viewId: 'DOCS',
+     callbackFunction: function () { return null; },
+ };
+-//# sourceMappingURL=typeDefs.js.map
+\ No newline at end of file
+diff --git a/node_modules/react-google-drive-picker/dist/useInjectScript.js b/node_modules/react-google-drive-picker/dist/useInjectScript.js
+index 4de4c07..a90a5b1 100644
+--- a/node_modules/react-google-drive-picker/dist/useInjectScript.js
++++ b/node_modules/react-google-drive-picker/dist/useInjectScript.js
+@@ -92,4 +92,3 @@ function useInjectScript(url) {
+     return [state.loaded, state.error];
+ }
+ exports.default = useInjectScript;
+-//# sourceMappingURL=useInjectScript.js.map
+\ No newline at end of file
